@@ -526,3 +526,244 @@ section5
 
 */
 
+#pricing{
+    margin: 120px 0;
+}
+
+.pricing1{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+}
+
+.pricing12{
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+.flexible{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.flexible1{
+    font-size: 48px;
+}
+
+.ipsum{
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+
+.ipsum1{
+    justify-content: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #707174;
+    
+}
+
+.ae{
+    margin-bottom: 36px;
+}
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan{
+    width: calc(90% / 3);
+    display: flex;
+    flex-direction: column;
+    border: 2px gray solid;
+    border-radius: 12px;
+    margin:  16px ;
+}
+
+.plane{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0  16px 0;
+}
+
+.personal{
+    font-size: 24px;
+}
+
+.pricer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.pricer__3{
+    font-size: 48px;
+}
+
+.monthly{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+    
+
+.monthly__1{
+    font-size: 18px;
+    color: #707174;
+}
+
+.clasen{
+    display: flex;
+    justify-content: center;
+    margin: 36px 0 32px 0;
+}
+
+
+.rowen{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rowen1{
+    font-size: 18px;
+}
+
+.rowen12{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    color: #707174;
+}
+
+.bon{
+    background-color: rgb(104, 236, 104);
+    border: green;
+    
+}
+
+.brton{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+
+.blanb{
+    background-color: rgb(70, 70, 245);
+    color: white;
+}
+.white{
+    color: white;
+}
+
+.bony{
+    background-color: white;
+    color: #000;
+    border: none;
+}
+
+.bone{
+    background-color: rgb(235, 150, 150);
+    border: red;
+}
+
+
+/*
+
+footer
+
+*/
+
+footer{
+    background-color: #461f94;
+}
+
+
+.footer__links{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.footer__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: calc(100%/5);
+    align-items: center;
+    margin: 80px 0;
+}
+
+.MAIN1{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    
+}
+
+.m2{
+    margin-bottom: 32px;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.footer1{
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo--size{
+    width: 40px;
+    height: 40px;
+}
+
+.footer__logoe{
+    color: white;
+    font-size: 12px;
+}
+
+.copy2{
+    color: white;
+    font-size: 18px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-facebook-f{
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 16px 20px;
+}
+
+.fa-twitter{
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+.fa-youtube{
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+.fabar{
+    margin-left: 14px;
+}
