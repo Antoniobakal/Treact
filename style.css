@@ -3,6 +3,7 @@
     pad: 0;
     margin: 0;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 .row{
     width: 100%;
@@ -66,6 +67,15 @@ Nav
     font-weight:bold ;
 
 }
+
+.lista:hover{
+    text-decoration: underline;
+    
+}
+
+.lol:hover{
+    text-decoration: none;
+}
 .re{
     text-decoration: none;
     color:#000;
@@ -85,6 +95,10 @@ Nav
     margin: 8px 36px;
 
 }
+
+
+
+
 
 /*
 
@@ -644,6 +658,8 @@ section5
 .bon{
     background-color: rgb(104, 236, 104);
     border: green;
+    text-decoration: none;
+    color: white;
     
 }
 
@@ -666,11 +682,14 @@ section5
     background-color: white;
     color: #000;
     border: none;
+    text-decoration: none;
 }
 
 .bone{
     background-color: rgb(235, 150, 150);
     border: red;
+    text-decoration: none;
+    color: #000;
 }
 
 
@@ -766,4 +785,40 @@ footer{
 
 .fabar{
     margin-left: 14px;
+}
+
+/*
+
+phone version
+
+*/
+
+
+
+
+@media (max-width: 1000px){
+
+    .lista{
+        display: none;
+    }
+
+    .lo,.lol{
+        display:block;
+    }
+    .text__starter--first{
+        font-size: 36px;
+    }
+
+    .text__starter{
+        margin-bottom: 16px;
+    }
+
+    .second__text--first{
+        font-size: 20px;
+ 
+   }
+
+   .right__img{
+    display: block;
+   }
 }
