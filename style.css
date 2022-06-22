@@ -798,6 +798,8 @@ phone version
 
 @media (max-width: 1000px){
 
+
+    
     .lista{
         display: none;
     }
@@ -818,7 +820,64 @@ phone version
  
    }
 
-   .right__img{
-    display: block;
+   .line__3--text{
+        display: none;
    }
+
+   
+   
+   .plans{
+    flex-direction: column;
+    
+   }
+   .plan{
+    margin: 0 auto;
+    margin-bottom: 16px;
+   }
+   .footer__info{
+    z-index: 2;
+   }
+
 }
+
+
+@media (max-width: 560px){
+    .section__diss{
+        flex-direction: column;
+    }
+    .starter__email{
+        width: 100%;
+    }
+    .left{
+        width: 550px;
+    }
+
+    .line__2--text{
+        font-size: 36px;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .box-1{
+        justify-content:left;
+        margin: 0 auto;
+        width: 100%;
+    }
+   .boxe{
+    flex-direction: column;
+   }
+   .box111{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+   }
+
+.titlee{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+}
+
